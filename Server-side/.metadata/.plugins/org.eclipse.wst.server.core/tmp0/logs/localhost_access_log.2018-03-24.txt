@@ -1,0 +1,8 @@
+127.0.0.1 - - [24/Mar/2018:21:00:11 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [24/Mar/2018:21:02:39 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [24/Mar/2018:21:03:28 +0530] "OPTIONS /healthcare-app/restapi/hlogin HTTP/1.1" 200 1266
+0:0:0:0:0:0:0:1 - - [24/Mar/2018:21:03:42 +0530] "POST /healthcare-app/restapi/hlogin HTTP/1.1" 500 35985
+127.0.0.1 - - [24/Mar/2018:21:07:14 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [24/Mar/2018:21:39:31 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [24/Mar/2018:21:39:48 +0530] "OPTIONS /healthcare-app/restapi/hlogin HTTP/1.1" 200 1266
+0:0:0:0:0:0:0:1 - - [24/Mar/2018:21:39:59 +0530] "POST /healthcare-app/restapi/hlogin HTTP/1.1" 200 10

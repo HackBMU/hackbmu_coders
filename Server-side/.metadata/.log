@@ -1,0 +1,1842 @@
+!SESSION 2018-03-23 23:44:54.285 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2018-03-23 23:45:28.436
+!MESSAGE Registering: com.google.appengine.eclipse.sdkbundle_1.9.34
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-23 23:45:43.108
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-23 23:47:02.962
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-23 23:47:30.917
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.ui 2 2 2018-03-23 23:47:52.909
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.common.jdt.debug.ui, page: org.jboss.tools.common.jdt.debug.ui.preferences.RemoteDebugPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2018-03-23 23:47:52.912
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.foundation.ui, page: org.jboss.tools.foundation.ui.internal.credentials.CredentialPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2018-03-23 23:47:52.914
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2018-03-23 23:47:52.917
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-23 23:48:49.947
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-03-23 23:49:00.882
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+!SESSION 2018-03-23 23:53:38.859 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/F:/material/finalYearProject/CodeBase/Server-side/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-23 23:54:33.799
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 0 2018-03-23 23:54:39.844
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-6,5,main]" timed out waiting (5142ms) for thread "Thread[Worker-5,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.7.0.20160603-1933 [558]". To avoid deadlock, thread "Thread[Worker-6,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="1.7.0.20160603-1933"; osgi.identity="org.eclipse.m2e.jdt"; singleton:="true" [id=558] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3471)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3447)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2920)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2845)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2885)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1965)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4187)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 27 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3471)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3447)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2920)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2845)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2885)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1965)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4187)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2018-03-23 23:54:45.086
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathHelpers", thread "Thread[Worker-6,5,main]" timed out waiting (5064ms) for thread "Thread[Worker-5,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.7.0.20160603-1933 [558]". To avoid deadlock, thread "Thread[Worker-6,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathHelpers" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="1.7.0.20160603-1933"; osgi.identity="org.eclipse.m2e.jdt"; singleton:="true" [id=558] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:44)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2939)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2845)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2885)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1965)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4187)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 21 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:44)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2939)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2845)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2885)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1965)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4187)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2018-03-23 23:54:55.040
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2939)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2845)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2883)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1965)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3424)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:235)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2032)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-03-23 23:54:56.762
+!MESSAGE An internal error occurred during: "Initializing Java Tooling".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2939)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2845)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2885)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1965)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4187)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.event 4 0 2018-03-23 23:55:01.662
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/application/ApplicationElement/tags/REMOVE] {ChangedElement=org.eclipse.e4.ui.model.application.ui.basic.impl.PartStackImpl@483b7dc4 (elementId: stickyFolderRight, tags: [active], contributorURI: null) (widget: CTabFolder {}, renderer: org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer@393d4e34, toBeRendered: false, onTop: false, visible: true, containerData: 2500, accessibilityPhrase: null), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.ui.model.application.ui.basic.impl.PartStackImpl@483b7dc4 (elementId: stickyFolderRight, tags: [active], contributorURI: null) (widget: CTabFolder {}, renderer: org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer@393d4e34, toBeRendered: false, onTop: false, visible: true, containerData: 2500, accessibilityPhrase: null), AttName=tags, EventType=REMOVE, Position=1, OldValue=Maximized, Widget=CTabFolder {}}, AttName=tags, EventType=REMOVE, Position=1, OldValue=Maximized, Widget=CTabFolder {}} to handler org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler@cf825e8
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.IllegalStateException: Application does not have an active window
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:65)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:56)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4821)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:53)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:94)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.remove(NotifyingListImpl.java:725)
+	at org.eclipse.emf.common.util.AbstractEList.remove(AbstractEList.java:462)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:80)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:94)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:303)
+	at org.eclipse.e4.ui.workbench.addons.cleanupaddon.CleanupAddon$2.run(CleanupAddon.java:325)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: java.lang.IllegalStateException: Application does not have an active window
+	at org.eclipse.e4.ui.internal.workbench.ApplicationPartServiceImpl.getActiveWindowService(ApplicationPartServiceImpl.java:46)
+	at org.eclipse.e4.ui.internal.workbench.ApplicationPartServiceImpl.requestActivation(ApplicationPartServiceImpl.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ApplicationPartServiceImpl.requestActivation(ApplicationPartServiceImpl.java:90)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.unzoom(MinMaxAddon.java:861)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.subscribeTopicTagsChanged(MinMaxAddon.java:369)
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	... 65 more
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-23 23:55:07.598
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-24 00:18:35.727
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+!SESSION 2018-03-24 00:19:34.897 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/F:/material/finalYearProject/CodeBase/Server-side/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-24 00:20:54.667
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 0 2018-03-24 00:21:02.329
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-0,5,main]" timed out waiting (5062ms) for thread "Thread[Worker-5,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.7.0.20160603-1933 [558]". To avoid deadlock, thread "Thread[Worker-0,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="1.7.0.20160603-1933"; osgi.identity="org.eclipse.m2e.jdt"; singleton:="true" [id=558] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3471)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3447)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2920)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2845)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2885)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1965)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4187)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 27 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3471)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3447)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2920)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2845)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2885)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1965)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4187)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2018-03-24 00:21:07.698
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathHelpers", thread "Thread[Worker-0,5,main]" timed out waiting (5109ms) for thread "Thread[Worker-5,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.7.0.20160603-1933 [558]". To avoid deadlock, thread "Thread[Worker-0,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathHelpers" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="1.7.0.20160603-1933"; osgi.identity="org.eclipse.m2e.jdt"; singleton:="true" [id=558] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:44)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2939)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2845)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2885)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1965)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4187)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 21 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:44)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2939)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2845)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2885)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1965)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4187)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2018-03-24 00:21:25.509
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2939)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2845)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2883)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1965)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3424)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:235)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2032)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-03-24 00:21:26.240
+!MESSAGE An internal error occurred during: "Initializing Java Tooling".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2939)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2845)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2885)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1965)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4187)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-24 00:21:34.621
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+!SESSION 2018-03-24 00:33:34.044 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/F:/material/finalYearProject/CodeBase/Server-side/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-24 00:34:32.306
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-24 00:34:56.374
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+!SESSION 2018-03-24 20:32:31.357 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-24 20:34:07.200
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-24 20:34:17.519
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-24 20:47:43.016
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-24 20:52:51.476
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-24 20:53:04.525
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-24 20:59:45.540
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-24 21:01:34.001
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-24 21:06:40.187
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-24 21:06:45.275
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-24 21:06:49.283
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-24 21:38:53.838
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+!SESSION 2018-03-26 23:52:43.966 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 0 2018-03-26 23:53:45.968
+!MESSAGE While loading class "com.google.gdt.eclipse.suite.preferences.GdtPreferences", thread "Thread[org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor,1,main]" timed out waiting (5020ms) for thread "Thread[main,6,main]" to finish starting bundle "com.google.gdt.eclipse.suite_3.9.6.v20170126-2034 [985]". To avoid deadlock, thread "Thread[org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor,1,main]" is proceeding but "com.google.gdt.eclipse.suite.preferences.GdtPreferences" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="3.9.6.v20170126-2034"; osgi.identity="com.google.gdt.eclipse.suite"; singleton:="true" [id=985] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.google.appengine.eclipse.wtp.runtime.GaeRuntimeConfigurator.startup(GaeRuntimeConfigurator.java:43)
+	at org.eclipse.wst.server.core.internal.ResourceManager.executeStartups(ResourceManager.java:207)
+	at org.eclipse.wst.server.core.internal.ResourceManager.init(ResourceManager.java:245)
+	at org.eclipse.wst.server.core.internal.ResourceManager.getRuntime(ResourceManager.java:755)
+	at org.eclipse.wst.server.core.ServerCore.findRuntime(ServerCore.java:363)
+	at org.eclipse.jst.server.core.internal.RuntimeClasspathContainerInitializer.initialize(RuntimeClasspathContainerInitializer.java:43)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2939)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1970)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3424)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:464)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:1850)
+	at org.eclipse.jst.j2ee.internal.project.J2EEProjectUtilities.getSourceContainers(J2EEProjectUtilities.java:810)
+	at org.eclipse.jst.j2ee.internal.validation.ProjectValidationHelper.getCachedSourceContainers(ProjectValidationHelper.java:76)
+	at org.eclipse.jst.j2ee.internal.validation.ProjectValidationHelper.getSourceContainers(ProjectValidationHelper.java:87)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.checkIfValidSourceFile(ValidatorMetaData.java:341)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.isApplicableTo(ValidatorMetaData.java:311)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.isApplicableTo(ValidatorMetaData.java:302)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.isApplicableTo(ValidatorMetaData.java:287)
+	at org.eclipse.wst.validation.Validator$V1.shouldValidate(Validator.java:734)
+	at org.eclipse.wst.validation.Validator.shouldValidate(Validator.java:320)
+	at org.eclipse.wst.validation.Friend.shouldValidate(Friend.java:50)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:800)
+	at org.eclipse.wst.validation.internal.DisabledValidatorManager$DisabledValidationFinder.findDisabledValidatorsFor(DisabledValidatorManager.java:109)
+	at org.eclipse.wst.validation.internal.DisabledValidatorManager.getDisabledValidatorsFor(DisabledValidatorManager.java:62)
+	at org.eclipse.wst.validation.ValidationFramework.getDisabledValidatorsFor(ValidationFramework.java:232)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:205)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 49 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.google.appengine.eclipse.wtp.runtime.GaeRuntimeConfigurator.startup(GaeRuntimeConfigurator.java:43)
+	at org.eclipse.wst.server.core.internal.ResourceManager.executeStartups(ResourceManager.java:207)
+	at org.eclipse.wst.server.core.internal.ResourceManager.init(ResourceManager.java:245)
+	at org.eclipse.wst.server.core.internal.ResourceManager.getRuntime(ResourceManager.java:755)
+	at org.eclipse.wst.server.core.ServerCore.findRuntime(ServerCore.java:363)
+	at org.eclipse.jst.server.core.internal.RuntimeClasspathContainerInitializer.initialize(RuntimeClasspathContainerInitializer.java:43)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2939)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1970)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3424)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:464)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:1850)
+	at org.eclipse.jst.j2ee.internal.project.J2EEProjectUtilities.getSourceContainers(J2EEProjectUtilities.java:810)
+	at org.eclipse.jst.j2ee.internal.validation.ProjectValidationHelper.getCachedSourceContainers(ProjectValidationHelper.java:76)
+	at org.eclipse.jst.j2ee.internal.validation.ProjectValidationHelper.getSourceContainers(ProjectValidationHelper.java:87)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.checkIfValidSourceFile(ValidatorMetaData.java:341)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.isApplicableTo(ValidatorMetaData.java:311)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.isApplicableTo(ValidatorMetaData.java:302)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.isApplicableTo(ValidatorMetaData.java:287)
+	at org.eclipse.wst.validation.Validator$V1.shouldValidate(Validator.java:734)
+	at org.eclipse.wst.validation.Validator.shouldValidate(Validator.java:320)
+	at org.eclipse.wst.validation.Friend.shouldValidate(Friend.java:50)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:800)
+	at org.eclipse.wst.validation.internal.DisabledValidatorManager$DisabledValidationFinder.findDisabledValidatorsFor(DisabledValidatorManager.java:109)
+	at org.eclipse.wst.validation.internal.DisabledValidatorManager.getDisabledValidatorsFor(DisabledValidatorManager.java:62)
+	at org.eclipse.wst.validation.ValidationFramework.getDisabledValidatorsFor(ValidationFramework.java:232)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:205)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-26 23:54:00.099
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-26 23:54:15.964
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-03-26 23:58:01.038
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 00:19:42.026
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:28:44.387
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:28:44.400
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:28:44.460
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:28:44.463
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:28:45.010
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7 is missing, no dependency information available
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:28:45.817
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:28:46.243
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:28:46.247
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:28:46.250
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:28:46.252
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:28:46.274
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:28:46.277
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:28:46.287
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:28:46.289
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:28:46.310
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:29:58.427
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:29:58.446
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:29:58.449
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:29:58.453
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:29:58.911
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:29:59.431
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:29:59.746
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:29:59.747
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:29:59.750
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:29:59.752
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:29:59.772
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:29:59.774
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:29:59.777
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:29:59.779
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:29:59.799
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-27 01:30:27.497
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-27 01:30:27.499
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:30:41.621
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:30:41.626
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:30:41.630
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:30:41.639
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:30:42.199
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:30:42.689
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:30:42.927
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:30:42.929
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:30:42.932
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:30:42.934
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:30:42.953
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:30:42.956
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:30:42.958
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:30:42.961
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:30:42.986
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:06.995
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:06.998
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:07.003
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:07.007
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:07.406
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:31:07.807
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-03-27 01:31:10.266
+!MESSAGE Unable to configure healthcare-app
+!STACK 0
+org.eclipse.m2e.wtp.MarkedException: Unable to configure healthcare-app
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98)
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342)
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:136)
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94)
+	... 18 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:12.349
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:12.357
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:12.366
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:12.369
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:31:13.998
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:31:17.803
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:17.914
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:17.919
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:17.924
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:17.928
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:17.960
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:17.962
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:17.965
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:17.967
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:31:17.985
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-03-27 01:31:18.467
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.467
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jaxrs-ri-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.467
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-hk2-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.467
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/hk2-locator-2.5.0-b42.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.467
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/aopalliance-repackaged-2.5.0-b42.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.467
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/hk2-api-2.5.0-b42.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.467
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/hk2-utils-2.5.0-b42.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.467
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-common-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.467
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.ws.rs-api-2.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.467
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.annotation-api-1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.467
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.inject-2.5.0-b42.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.467
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/osgi-resource-locator-1.0.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.467
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-media-jaxb-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-media-json-binding-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.json-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.json-api-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.json.bind-api-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-client-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-server-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/validation-api-1.1.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-container-servlet-core-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-container-servlet-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-media-sse-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-media-moxy-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-entity-filtering-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/org.eclipse.persistence.moxy-2.6.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/org.eclipse.persistence.core-2.6.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/org.eclipse.persistence.asm-2.6.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-media-multipart-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/mimepull-1.9.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/itextpdf-5.5.12.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/hibernate-core-5.2.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jboss-logging-3.3.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javassist-3.20.0-GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/antlr-2.7.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.468
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jandex-2.0.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.469
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/classmate-1.3.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.469
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/dom4j-1.6.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.469
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.469
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/cdi-api-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.469
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/el-api-2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.469
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.469
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jsr250-api-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.469
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.inject-1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.469
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/hibernate-ehcache-5.2.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.469
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/ehcache-2.10.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.469
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/slf4j-api-1.7.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.469
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/postgresql-42.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.469
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.mail-api-1.6.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.469
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.mail-1.6.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.473
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/activation-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.474
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.474
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jackson-core-asl-1.9.13.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:18.474
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib. May be locked by another process.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-03-27 01:31:19.898
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.899
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jaxrs-ri-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.900
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-hk2-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.912
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/hk2-locator-2.5.0-b42.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.913
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/aopalliance-repackaged-2.5.0-b42.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.916
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/hk2-api-2.5.0-b42.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.917
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/hk2-utils-2.5.0-b42.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-common-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.ws.rs-api-2.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.annotation-api-1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.inject-2.5.0-b42.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/osgi-resource-locator-1.0.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-media-jaxb-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-media-json-binding-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.json-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.json-api-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.json.bind-api-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-client-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-server-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/validation-api-1.1.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-container-servlet-core-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-container-servlet-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-media-sse-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-media-moxy-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-entity-filtering-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/org.eclipse.persistence.moxy-2.6.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/org.eclipse.persistence.core-2.6.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.935
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/org.eclipse.persistence.asm-2.6.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jersey-media-multipart-2.26.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/mimepull-1.9.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/itextpdf-5.5.12.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/hibernate-core-5.2.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jboss-logging-3.3.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javassist-3.20.0-GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/antlr-2.7.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jandex-2.0.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/classmate-1.3.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/dom4j-1.6.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/cdi-api-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/el-api-2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jsr250-api-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.inject-1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/hibernate-ehcache-5.2.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/ehcache-2.10.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/slf4j-api-1.7.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/postgresql-42.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.mail-api-1.6.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/javax.mail-1.6.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/activation-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib/jackson-core-asl-1.9.13.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-03-27 01:31:19.936
+!MESSAGE Could not delete F:/material/finalYearProject/CodeBase/Server-side/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/healthcare-app/WEB-INF/lib. May be locked by another process.
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:33:16.082
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:25.586
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:25.590
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:25.594
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:25.601
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:26.105
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:37:26.649
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:26.970
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:26.974
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:26.977
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:26.980
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:27.003
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:27.006
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:27.009
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:27.012
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:27.030
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:38.572
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:38.575
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:38.578
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:38.581
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:38.928
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:37:39.322
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-03-27 01:37:40.007
+!MESSAGE Unable to configure healthcare-app
+!STACK 0
+org.eclipse.m2e.wtp.MarkedException: Unable to configure healthcare-app
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98)
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342)
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:136)
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94)
+	... 18 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:41.814
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:41.820
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:41.827
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:41.829
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:37:42.342
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:37:43.733
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:44.070
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:44.076
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:44.079
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:44.081
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:44.094
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:44.097
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:44.100
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:44.102
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:37:44.117
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:10.352
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:10.356
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:10.359
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:10.363
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:10.707
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:40:11.064
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:11.344
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:11.346
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:11.349
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:11.350
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:11.368
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:11.370
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:11.373
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:11.376
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:11.393
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:25.555
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:25.558
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:25.562
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:25.565
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:25.947
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:40:26.385
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:28.725
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:28.733
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:28.741
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:28.744
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:40:29.556
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:40:31.851
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:32.255
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:32.262
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:32.265
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:32.267
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:32.287
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:32.292
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:32.296
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:32.298
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:40:32.313
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:46:59.703
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:46:59.706
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:46:59.709
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:46:59.712
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 in http://uk.maven.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of UK has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:47:00.067
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:47:00.460
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:47:00.668
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:47:00.670
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:47:00.672
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:47:00.674
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:47:00.686
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:47:00.688
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:47:00.690
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:47:00.691
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:3.7.0: Plugin org.apache.maven.plugins:maven-dependency-plugin:3.7.0 or one of its dependencies could not be resolved: Cannot access UK (http://uk.maven.org/maven2) in offline mode and the artifact org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-27 01:47:00.704
+!MESSAGE The POM for org.apache.maven.plugins:maven-dependency-plugin:jar:3.7.0 is missing, no dependency information available
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:55:58.004
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY org.eclipse.core.resources 4 2 2018-03-27 01:56:02.799
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.processBuildResults(MavenBuilderImpl.java:286)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:179)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:172)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1$1.call(MavenBuilder.java:115)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:105)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 75 2018-03-27 01:56:02.806
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.m2e.core 4 75 2018-03-27 01:56:02.806
+!MESSAGE Errors running builder 'Maven Project Builder' on project 'healthcare-app'.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.processBuildResults(MavenBuilderImpl.java:286)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:179)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:172)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1$1.call(MavenBuilder.java:115)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:105)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-03-27 01:56:05.431
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-03-27 01:56:07.199 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/F:/material/finalYearProject/CodeBase/Server-side/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-03-27 01:56:13.557
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 0 2018-03-27 01:56:54.585
+!MESSAGE While loading class "com.google.gdt.eclipse.suite.preferences.GdtPreferences", thread "Thread[org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor,1,main]" timed out waiting (5002ms) for thread "Thread[main,6,main]" to finish starting bundle "com.google.gdt.eclipse.suite_3.9.6.v20170126-2034 [985]". To avoid deadlock, thread "Thread[org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor,1,main]" is proceeding but "com.google.gdt.eclipse.suite.preferences.GdtPreferences" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="3.9.6.v20170126-2034"; osgi.identity="com.google.gdt.eclipse.suite"; singleton:="true" [id=985] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.google.appengine.eclipse.wtp.runtime.GaeRuntimeConfigurator.startup(GaeRuntimeConfigurator.java:43)
+	at org.eclipse.wst.server.core.internal.ResourceManager.executeStartups(ResourceManager.java:207)
+	at org.eclipse.wst.server.core.internal.ResourceManager.init(ResourceManager.java:245)
+	at org.eclipse.wst.server.core.internal.ResourceManager.getRuntime(ResourceManager.java:755)
+	at org.eclipse.wst.server.core.ServerCore.findRuntime(ServerCore.java:363)
+	at org.eclipse.jst.server.core.internal.RuntimeClasspathContainerInitializer.initialize(RuntimeClasspathContainerInitializer.java:43)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2939)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1970)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3424)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:464)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:1850)
+	at org.eclipse.jst.j2ee.internal.project.J2EEProjectUtilities.getSourceContainers(J2EEProjectUtilities.java:810)
+	at org.eclipse.jst.j2ee.internal.validation.ProjectValidationHelper.getCachedSourceContainers(ProjectValidationHelper.java:76)
+	at org.eclipse.jst.j2ee.internal.validation.ProjectValidationHelper.getSourceContainers(ProjectValidationHelper.java:87)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.checkIfValidSourceFile(ValidatorMetaData.java:341)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.isApplicableTo(ValidatorMetaData.java:311)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.isApplicableTo(ValidatorMetaData.java:302)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.isApplicableTo(ValidatorMetaData.java:287)
+	at org.eclipse.wst.validation.Validator$V1.shouldValidate(Validator.java:734)
+	at org.eclipse.wst.validation.Validator.shouldValidate(Validator.java:320)
+	at org.eclipse.wst.validation.Friend.shouldValidate(Friend.java:50)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:800)
+	at org.eclipse.wst.validation.internal.DisabledValidatorManager$DisabledValidationFinder.findDisabledValidatorsFor(DisabledValidatorManager.java:109)
+	at org.eclipse.wst.validation.internal.DisabledValidatorManager.getDisabledValidatorsFor(DisabledValidatorManager.java:62)
+	at org.eclipse.wst.validation.ValidationFramework.getDisabledValidatorsFor(ValidationFramework.java:232)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:205)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 49 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.google.appengine.eclipse.wtp.runtime.GaeRuntimeConfigurator.startup(GaeRuntimeConfigurator.java:43)
+	at org.eclipse.wst.server.core.internal.ResourceManager.executeStartups(ResourceManager.java:207)
+	at org.eclipse.wst.server.core.internal.ResourceManager.init(ResourceManager.java:245)
+	at org.eclipse.wst.server.core.internal.ResourceManager.getRuntime(ResourceManager.java:755)
+	at org.eclipse.wst.server.core.ServerCore.findRuntime(ServerCore.java:363)
+	at org.eclipse.jst.server.core.internal.RuntimeClasspathContainerInitializer.initialize(RuntimeClasspathContainerInitializer.java:43)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2939)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1970)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3424)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:464)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:1850)
+	at org.eclipse.jst.j2ee.internal.project.J2EEProjectUtilities.getSourceContainers(J2EEProjectUtilities.java:810)
+	at org.eclipse.jst.j2ee.internal.validation.ProjectValidationHelper.getCachedSourceContainers(ProjectValidationHelper.java:76)
+	at org.eclipse.jst.j2ee.internal.validation.ProjectValidationHelper.getSourceContainers(ProjectValidationHelper.java:87)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.checkIfValidSourceFile(ValidatorMetaData.java:341)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.isApplicableTo(ValidatorMetaData.java:311)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.isApplicableTo(ValidatorMetaData.java:302)
+	at org.eclipse.wst.validation.internal.ValidatorMetaData.isApplicableTo(ValidatorMetaData.java:287)
+	at org.eclipse.wst.validation.Validator$V1.shouldValidate(Validator.java:734)
+	at org.eclipse.wst.validation.Validator.shouldValidate(Validator.java:320)
+	at org.eclipse.wst.validation.Friend.shouldValidate(Friend.java:50)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:800)
+	at org.eclipse.wst.validation.internal.DisabledValidatorManager$DisabledValidationFinder.findDisabledValidatorsFor(DisabledValidatorManager.java:109)
+	at org.eclipse.wst.validation.internal.DisabledValidatorManager.getDisabledValidatorsFor(DisabledValidatorManager.java:62)
+	at org.eclipse.wst.validation.ValidationFramework.getDisabledValidatorsFor(ValidationFramework.java:232)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:205)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-27 01:57:09.750
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 01:57:19.403
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 02:24:50.095
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 02:25:47.471
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 02:28:27.614
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 02:28:28.867
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 02:28:35.549
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-27 03:04:39.193
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+!SESSION 2018-03-28 21:53:08.785 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 0 2018-03-28 21:55:13.818
+!MESSAGE While loading class "org.eclipse.egit.ui.internal.ConfigurationChecker$1$1", thread "Thread[Worker-0,5,main]" timed out waiting (5026ms) for thread "Thread[main,6,main]" to finish starting bundle "org.eclipse.egit.ui_4.6.1.201703071140-r [276]". To avoid deadlock, thread "Thread[Worker-0,5,main]" is proceeding but "org.eclipse.egit.ui.internal.ConfigurationChecker$1$1" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="4.6.1.201703071140-r"; osgi.identity="org.eclipse.egit.ui"; singleton:="true" [id=276] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1.run(ConfigurationChecker.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 13 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1.run(ConfigurationChecker.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-28 21:56:23.240
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-28 21:56:52.668
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+!SESSION 2018-03-31 22:16:01.704 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-31 22:17:32.357
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-31 22:18:01.820
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-31 22:19:21.190
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-31 22:27:45.489
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-31 22:27:51.883
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-03-31 22:31:32.994
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+!SESSION 2018-04-06 15:38:34.020 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data F:\material\finalYearProject\CodeBase\Server-side -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-04-06 15:39:08.237
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-04-06 15:39:14.908
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Connect to tools.jboss.org:443 [tools.jboss.org/209.132.182.95] failed: Read timed out. ; version: 2.0.4.v20170307-1435
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to tools.jboss.org:443 [tools.jboss.org/209.132.182.95] failed: Read timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:290)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:259)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
+
+!ENTRY org.eclipse.oomph.setup.core 2 0 2018-04-06 15:39:17.931
+!MESSAGE The Eclipse Git-hosted URI 'http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/org.eclipse.setup' is blocked for direct access.
+Please open a Bugzilla to add it to an official Oomph catalog.
+For initial testing, use the file system local version of the resource.
+Alternatively, run the setup archiver application as follows:
+  C:\Development\IDE\eclipse-neon\eclipse\eclipsec.exe -application org.eclipse.oomph.setup.core.SetupArchiver -consoleLog -noSplash -uris http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/org.eclipse.setup
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-04-06 15:39:22.892
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-04-06 15:39:33.009
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+!SESSION 2018-04-07 05:55:32.865 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-04-07 05:56:43.327
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-04-07 05:57:00.541
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-04-07 06:02:09.253
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-04-07 06:02:39.421
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
+!SESSION 2018-04-07 09:34:15.224 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-04-07 09:34:52.757
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Akul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.google.appengine.eclipse.wtp.maven 1 0 2018-04-07 09:35:06.042
+!MESSAGE GaeProjectConfigurator.getBuildParticipant invoked
